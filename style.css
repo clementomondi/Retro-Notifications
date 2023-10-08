@@ -1,0 +1,251 @@
+/* Add CSS here */
+.body-container {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    background-color: #e4f0fc;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.bell {
+    height: 50px;
+    max-width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    margin-left: 270px;
+}
+
+.icon {
+    background-color: #8ad8ef;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5em;
+    border-color: #5f2b59;
+}
+
+.container {
+    max-width: 320px;
+    height: 332px;
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgb(193, 191, 191);
+}
+
+
+.notif {
+    height: 50px;
+    width: 100%;
+    background-color: #f3fbfd;
+    display: flex;
+    border-bottom-width: 2px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.notif h1 {
+    color: #8ad8ef;
+    font-size: 12px;
+}
+
+.content {
+    height: 360px;
+}
+
+.closet {
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom-width: 2px;
+    transition: .7s;
+}
+
+.closet:hover {
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    background-color: #8ad8ef;
+    display: flex;
+    color: white;
+    transform: scale(1.1);
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom-width: 2px;
+}
+
+.font {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    background-size: cover;
+    border-radius: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auction {
+    flex-direction: column;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 7em;
+}
+
+.compact {
+    display: flex;
+    gap: 10px;
+}
+
+.closet h1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #949497;
+    transition: .7s;
+}
+
+.closet h1:hover {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+button {
+    border-width: 2px;
+    width: 20%;
+    height: 25px;
+    border-color: #dbed90;
+    border-radius: 1em;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .body-container {
+        font-family: 'poppins', sans-serif;
+        display: flex;
+        background-color: #e4f0fc;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .bell {
+        height: 50px;
+        max-width: 300px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: flex-end;
+        margin-left: 270px;
+    }
+
+    .icon {
+        background-color: #8ad8ef;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5em;
+        border-color: #5f2b59;
+    }
+
+    .container {
+        max-width: 320px;
+        height: 332px;
+        background-color: #ffffff;
+        border-radius: 0.3em;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgb(193, 191, 191);
+    }
+
+
+    .notif {
+        height: 50px;
+        width: 100%;
+        background-color: #f3fbfd;
+        display: flex;
+        border-bottom-width: 2px;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .notif h1 {
+        color: #8ad8ef;
+        font-size: 12px;
+    }
+
+    .content {
+        height: 360px;
+    }
+
+    .closet {
+        height: 70px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border-bottom-width: 2px;
+    }
+
+    .font {
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+        background-size: cover;
+        border-radius: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .auction {
+        flex-direction: column;
+    }
+
+    .image {
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        border-radius: 7em;
+    }
+
+    .compact {
+        display: flex;
+        gap: 10px;
+    }
+
+    .closet h1 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #949497;
+    }
+
+    button {
+        border-width: 2px;
+        width: 20%;
+        height: 25px;
+        border-color: #dbed90;
+        border-radius: 1em;
+        font-size: 13px;
+    }
+}
